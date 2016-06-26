@@ -21,6 +21,7 @@ If you find this package useful in your research, please consider citing:
     }
     
 ## Requirements
+- [TensorFlow](https://www.tensorflow.org/) 0.8+
 - python 2.7 (Need ackages of numpy, scipy, nltk. All included in [Anaconda](https://store.continuum.io/cshop/anaconda/))
 - [MS COCO caption toolkit](https://github.com/tylin/coco-caption)
 
