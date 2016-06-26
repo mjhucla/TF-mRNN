@@ -6,6 +6,7 @@ Created by [Junhua Mao](www.stat.ucla.edu/~junhua.mao)
 
 This package is a re-implementation of the [m-RNN](http://www.stat.ucla.edu/~junhua.mao/m-RNN.html) image captioning method
 using [TensorFlow](https://www.tensorflow.org/).
+The training speed is optimized with buckets of different lengths of the training sentences.
 It also support the *Beam Search* method to decode image features into 
 sentences.
 
