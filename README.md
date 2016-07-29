@@ -32,7 +32,7 @@ If you find this package useful in your research, please consider citing:
 2. Suppose that toolkit is install on $PATH_COCOCap and this package is install at $PATH_mRNN_CR. Create a soft link to COCOCap as follows:
   ```Shell
   cd $PATH_mRNN_CR
-  ln -sf ./external/coco-caption $PATH_COCOCap
+  ln -sf $PATH_COCOCap ./external/coco-caption
   ```
   
 3. Download necessary data for using a trained m-RNN model.
