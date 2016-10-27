@@ -3,7 +3,7 @@
 mkdir ./datasets
 mkdir ./datasets/ms_coco
 mkdir ./datasets/ms_coco/mscoco_anno_files
-wget -O ./datasets/ms_coco/mscoco_anno_files/mscoco_anno_files.zip https://googledrive.com/host/0BztTAiQoAH9CbnRBMXFUZkZVM2c
+wget -O ./datasets/ms_coco/mscoco_anno_files/mscoco_anno_files.zip http://www.cs.jhu.edu/~jhmao/open_source_data/mrnn_cr/mscoco_anno_files.zip
 unzip ./datasets/ms_coco/mscoco_anno_files/mscoco_anno_files.zip -d ./datasets/ms_coco/mscoco_anno_files/
 rm ./datasets/ms_coco/mscoco_anno_files/mscoco_anno_files.zip
 
@@ -15,6 +15,6 @@ mv ./external/tf_cnn_models/tensorflow_inception_graph.pb ./external/tf_cnn_mode
 rm ./external/tf_cnn_models/inception_dec_2015.zip
 
 # 3. the trained mRNN model
-wget -O ./trained_models/coco_caption/mrnn_GRU_570K.zip https://googledrive.com/host/0BztTAiQoAH9CVTlGQXJtMGc5d2M
+wget -O ./trained_models/coco_caption/mrnn_GRU_570K.zip http://www.cs.jhu.edu/~jhmao/open_source_data/tf_mrnn/mrnn_GRU_570K.zip
 unzip -o ./trained_models/coco_caption/mrnn_GRU_570K.zip -d ./trained_models/coco_caption/
 rm ./trained_models/coco_caption/mrnn_GRU_570K.zip
